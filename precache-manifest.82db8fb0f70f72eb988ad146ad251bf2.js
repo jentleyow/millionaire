@@ -1,23 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "2928fb1b5340f229eab8",
-    "url": "/millionaire/static/css/main.9c3ee96c.chunk.css"
+    "revision": "e21389b2df539a6e3edb",
+    "url": "/millionaire/static/css/main.721204fd.chunk.css"
   },
   {
-    "revision": "2928fb1b5340f229eab8",
-    "url": "/millionaire/static/js/main.2928fb1b.chunk.js"
+    "revision": "e21389b2df539a6e3edb",
+    "url": "/millionaire/static/js/main.e21389b2.chunk.js"
   },
   {
     "revision": "6c5eb9570945a4f20a77",
     "url": "/millionaire/static/js/runtime~main.6c5eb957.js"
   },
   {
-    "revision": "45b8d3ee595fcf026ea1",
-    "url": "/millionaire/static/js/2.45b8d3ee.chunk.js"
-  },
-  {
-    "revision": "e58afcd61d547ebf48f7e6e3386d916b",
-    "url": "/millionaire/static/media/lose.e58afcd6.mp3"
+    "revision": "26b1429f407b8cb8691b",
+    "url": "/millionaire/static/js/2.26b1429f.chunk.js"
   },
   {
     "revision": "40f2f3274d8e50ea554a85384dc0246b",
@@ -36,8 +32,16 @@ self.__precacheManifest = [
     "url": "/millionaire/static/media/finalanswer.6fad040f.mp3"
   },
   {
+    "revision": "e58afcd61d547ebf48f7e6e3386d916b",
+    "url": "/millionaire/static/media/lose.e58afcd6.mp3"
+  },
+  {
     "revision": "ca04dcd5198b1f900a63219a0dd028fc",
     "url": "/millionaire/static/media/win.ca04dcd5.mp3"
+  },
+  {
+    "revision": "6aa1a128af71c7cfd73e5251a8cb4c9c",
+    "url": "/millionaire/static/media/win2.6aa1a128.mp3"
   },
   {
     "revision": "620b8a09168c7126f4859b7f4cac7024",
@@ -56,10 +60,6 @@ self.__precacheManifest = [
     "url": "/millionaire/static/media/box6.f39fcfe4.png"
   },
   {
-    "revision": "c58fe1a0b92955b76074c928d668cb0d",
-    "url": "/millionaire/static/media/Purple-Blue-gradient.c58fe1a0.jpg"
-  },
-  {
     "revision": "e11220af60fd821d729ff90179c5cb92",
     "url": "/millionaire/static/media/box2.e11220af.png"
   },
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/millionaire/static/media/box4.27e69a33.png"
   },
   {
-    "revision": "dc8190a7de6e957de32792b598f97c4c",
+    "revision": "0a4ed08fe77de28c8da456975b330bdc",
     "url": "/millionaire/index.html"
   }
 ];
