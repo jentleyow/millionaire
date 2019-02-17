@@ -1,0 +1,45 @@
+#prompt {
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  display: none;
+  .container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+.box.promptQuestion {
+  background: url('../img/box2.png') no-repeat;
+  background-size: 100% 100%;
+  p {
+    font-size: 1.5em;
+    padding: 50px 30px;
+    line-height: 1.5em;
+  }
+}
+.box.red {
+  background: url('../img/box5.png') no-repeat;
+  background-size: 100% 100%;
+  p {
+    font-size: 1em;
+  }
+  &:hover {
+    background: url('../img/box4.png') no-repeat;
+    background-size: 100% 100%;
+  }
+}
+
+.box.green {
+  background: url('../img/box6.png') no-repeat;
+  background-size: 100% 100%;
+  p {
+    font-size: 1em;
+  }
+  &:hover {
+    background: url('../img/box4.png') no-repeat;
+    background-size: 100% 100%;
+  }
+}

@@ -1,0 +1,79 @@
+.box {
+  margin: 0px auto;
+  width: 80%;
+  transition: 0.5s;
+  cursor: pointer;
+  p {
+    margin: 0px auto 0px;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    padding: 25px 30px;
+  }
+}
+.box.score {
+  background: url('../img/box1.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.box.question {
+  background: url('../img/box2.png') no-repeat;
+  background-size: 100% 100%;
+  p {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+}
+.box.options {
+  p {
+    font-size: 1em;
+    line-height: 1.2em;
+    text-align: left;
+    padding: 25px 50px;
+  }
+  p .option {
+    text-transform: capitalize;
+  }
+}
+.box.options.grey {
+  background: url('../img/box3.png') no-repeat;
+  background-size: 100% 100%;
+}
+.box.options.greyout {
+  background: url('../img/box3.png') no-repeat;
+  background-size: 100% 100%;
+  p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: #454545;
+    cursor: crosshair;
+  }
+  &:hover {
+    background: url('../img/box3.png') no-repeat;
+    background-size: 100% 100%;
+  }
+}
+.box.options.green {
+  background: url('../img/box5.png') no-repeat;
+  background-size: 100% 100%;
+  &:hover {
+    background: url('../img/box5.png') no-repeat;
+    background-size: 100% 100%;
+  }
+}
+.box.options.red {
+  background: url('../img/box6.png') no-repeat;
+  background-size: 100% 100%;
+  &:hover {
+    background: url('../img/box6.png') no-repeat;
+    background-size: 100% 100%;
+  }
+}
+
+.box.options:hover {
+  background: url('../img/box4.png') no-repeat;
+  background-size: 100% 100%;
+}

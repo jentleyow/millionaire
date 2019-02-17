@@ -1,0 +1,27 @@
+/* HELPER CLASSES BEGIN */
+.alignLeft {
+  float: left;
+}
+
+.alignRight {
+  float: right;
+}
+.textCenter {
+  text-align: center;
+}
+
+strong,
+b {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
+.block {
+  display: block;
+}
+.clearfix {
+  clear: both;
+}
