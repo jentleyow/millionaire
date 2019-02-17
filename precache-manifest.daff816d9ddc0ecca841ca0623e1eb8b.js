@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "85df4b0fb09b96ebc343",
-    "url": "/millionaire/static/css/main.b71b3a1d.chunk.css"
+    "revision": "c7184fb21f4c0d0cc5de",
+    "url": "/millionaire/static/css/main.e24fb803.chunk.css"
   },
   {
-    "revision": "85df4b0fb09b96ebc343",
-    "url": "/millionaire/static/js/main.85df4b0f.chunk.js"
+    "revision": "c7184fb21f4c0d0cc5de",
+    "url": "/millionaire/static/js/main.c7184fb2.chunk.js"
   },
   {
     "revision": "6c5eb9570945a4f20a77",
@@ -48,27 +48,27 @@ self.__precacheManifest = [
     "url": "/millionaire/static/media/box5.620b8a09.png"
   },
   {
-    "revision": "fb438a16c4449d8863dbe992d97286c1",
-    "url": "/millionaire/static/media/box1.fb438a16.png"
-  },
-  {
     "revision": "980a42109b7892986d02ee59d6746118",
     "url": "/millionaire/static/media/box3.980a4210.png"
   },
   {
-    "revision": "e11220af60fd821d729ff90179c5cb92",
-    "url": "/millionaire/static/media/box2.e11220af.png"
+    "revision": "fb438a16c4449d8863dbe992d97286c1",
+    "url": "/millionaire/static/media/box1.fb438a16.png"
   },
   {
     "revision": "f39fcfe43ce1ed77983f7332cb3f3c94",
     "url": "/millionaire/static/media/box6.f39fcfe4.png"
   },
   {
+    "revision": "e11220af60fd821d729ff90179c5cb92",
+    "url": "/millionaire/static/media/box2.e11220af.png"
+  },
+  {
     "revision": "27e69a33ba756200cbed6527a2114689",
     "url": "/millionaire/static/media/box4.27e69a33.png"
   },
   {
-    "revision": "f8497a1f54855d72dda8ff8837039926",
+    "revision": "332eff1c31db799f0534d7e8663cfa85",
     "url": "/millionaire/index.html"
   }
 ];
