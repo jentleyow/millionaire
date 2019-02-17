@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "08c5462d8b298ab4ce1b",
+    "revision": "85df4b0fb09b96ebc343",
     "url": "/millionaire/static/css/main.b71b3a1d.chunk.css"
   },
   {
-    "revision": "08c5462d8b298ab4ce1b",
-    "url": "/millionaire/static/js/main.08c5462d.chunk.js"
+    "revision": "85df4b0fb09b96ebc343",
+    "url": "/millionaire/static/js/main.85df4b0f.chunk.js"
   },
   {
     "revision": "6c5eb9570945a4f20a77",
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/millionaire/static/media/box4.27e69a33.png"
   },
   {
-    "revision": "8cab3aa7cf629cc5afa495bb9b6dc966",
+    "revision": "f8497a1f54855d72dda8ff8837039926",
     "url": "/millionaire/index.html"
   }
 ];
