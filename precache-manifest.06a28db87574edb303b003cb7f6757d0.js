@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "d92c41770d942fd83679",
-    "url": "/millionaire/static/css/main.c832b45d.chunk.css"
+    "revision": "434a843f0d7f5b7f4e19",
+    "url": "/millionaire/static/css/main.1e29115f.chunk.css"
   },
   {
-    "revision": "d92c41770d942fd83679",
-    "url": "/millionaire/static/js/main.d92c4177.chunk.js"
+    "revision": "434a843f0d7f5b7f4e19",
+    "url": "/millionaire/static/js/main.434a843f.chunk.js"
   },
   {
     "revision": "6c5eb9570945a4f20a77",
@@ -44,31 +44,31 @@ self.__precacheManifest = [
     "url": "/millionaire/static/media/win2.6aa1a128.mp3"
   },
   {
-    "revision": "980a42109b7892986d02ee59d6746118",
-    "url": "/millionaire/static/media/box3.980a4210.png"
+    "revision": "620b8a09168c7126f4859b7f4cac7024",
+    "url": "/millionaire/static/media/box5.620b8a09.png"
   },
   {
     "revision": "fb438a16c4449d8863dbe992d97286c1",
     "url": "/millionaire/static/media/box1.fb438a16.png"
   },
   {
-    "revision": "f39fcfe43ce1ed77983f7332cb3f3c94",
-    "url": "/millionaire/static/media/box6.f39fcfe4.png"
-  },
-  {
-    "revision": "620b8a09168c7126f4859b7f4cac7024",
-    "url": "/millionaire/static/media/box5.620b8a09.png"
-  },
-  {
-    "revision": "27e69a33ba756200cbed6527a2114689",
-    "url": "/millionaire/static/media/box4.27e69a33.png"
+    "revision": "980a42109b7892986d02ee59d6746118",
+    "url": "/millionaire/static/media/box3.980a4210.png"
   },
   {
     "revision": "e11220af60fd821d729ff90179c5cb92",
     "url": "/millionaire/static/media/box2.e11220af.png"
   },
   {
-    "revision": "986c9f3b2b6f882095f34f77f5f76ffa",
+    "revision": "f39fcfe43ce1ed77983f7332cb3f3c94",
+    "url": "/millionaire/static/media/box6.f39fcfe4.png"
+  },
+  {
+    "revision": "27e69a33ba756200cbed6527a2114689",
+    "url": "/millionaire/static/media/box4.27e69a33.png"
+  },
+  {
+    "revision": "5e49a772588759e9397185b996cfd967",
     "url": "/millionaire/index.html"
   }
 ];
