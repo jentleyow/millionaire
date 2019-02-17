@@ -16,8 +16,8 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: url('../img/Purple-Blue-gradient.jpg') no-repeat center center
-    fixed;
+  background: linear-gradient(to bottom, #a7cfdf 0%, #23538a 100%);
+  background-size: cover;
   font-family: 'Montserrat', sans-serif;
   color: white;
 }

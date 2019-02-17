@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import ReactHowler from 'react-howler';
 import { connect } from 'react-redux';
 import question1 from '../../sound/question1.mp3';
@@ -6,8 +6,7 @@ import question2 from '../../sound/question2.mp3';
 import finalanswer from '../../sound/finalanswer.mp3';
 import lose from '../../sound/lose.mp3';
 import win from '../../sound/win.mp3';
-import win2 from '../../sound/lose.mp3';
-
+import win2 from '../../sound/win2.mp3';
 const Music = props => {
   return <ReactHowler src={props.src} playing={true} loop={props.loop} />;
 };

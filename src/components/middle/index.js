@@ -2,27 +2,16 @@ import React from 'react';
 import { connect } from 'react-redux';
 import Question from './Question';
 import Options from './Options';
-import Lifeline from './Lifeline';
-import Blank from './Blank';
-const Middle = ({
-  currentState,
-  lifeline,
-  answer,
-  options,
-  question,
-  selectedOption
-}) => {
-  let questionAndAnswer = (
-    <React.Fragment>
-      <Question question={question} />
-      <Options />
-    </React.Fragment>
-  );
+import Lifelines from './Lifelines';
+import Score from './Score';
+const Middle = ({ question }) => {
   return (
     <section id="middle">
       <div class="container">
-        {questionAndAnswer}
-        <Lifeline />
+        <Score />
+        <Question question={question} />
+        <Options />
+        <Lifelines />
       </div>
     </section>
   );

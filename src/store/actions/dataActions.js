@@ -2,7 +2,9 @@ import {
   SELECT_OPTION,
   SUBMIT_ANSWER,
   DONT_SUBMIT_ANSWER,
-  NEXT_QUESTION
+  NEXT_QUESTION,
+  USE_LIFELINE,
+  NEW_GAME
 } from '../reducers/constants';
 
 export const selectOption = letter => {
@@ -23,5 +25,15 @@ export const dontSubmitAnswer = () => {
 export const nextQuestion = () => {
   return (dispatch, getState) => {
     dispatch({ type: NEXT_QUESTION });
+  };
+};
+export const useLifeline = no => {
+  return (dispatch, getState) => {
+    dispatch({ type: USE_LIFELINE, payload: no });
+  };
+};
+export const newGame = () => {
+  return (dispatch, getState) => {
+    dispatch({ type: NEW_GAME });
   };
 };

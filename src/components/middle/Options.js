@@ -1,11 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Option from './Option';
 import { connect } from 'react-redux';
-class Options extends Component {
-  state = {
-    arrOption: []
-  };
-  displayOptions = (
+const Options = ({
+  options,
+  currentState,
+  answer,
+  selectedOption,
+  fiftyResult
+}) => {
+  const displayOptions = (
     options,
     currentState,
     answer,
@@ -35,10 +38,11 @@ class Options extends Component {
       }
       arrClass.push(className);
     }
-    if (fiftyResult) {
-      // for (let i = 0; i < arrClass.length; i++) {
-      //   arrClass[arr[i]] = 'options_greyout';
-      // }
+
+    if (fiftyResult.length === 2) {
+      for (let i = 0; i < fiftyResult.length; i++) {
+        arrClass[fiftyResult[i]] = 'options greyout';
+      }
     }
 
     let allOptions = (
@@ -61,28 +65,18 @@ class Options extends Component {
     return allOptions;
   };
 
-  render() {
-    const {
-      options,
-      currentState,
-      answer,
-      selectedOption,
-      fiftyResult
-    } = this.props;
-
-    return (
-      <React.Fragment>
-        {this.displayOptions(
-          options,
-          currentState,
-          answer,
-          selectedOption,
-          fiftyResult
-        )}
-      </React.Fragment>
-    );
-  }
-}
+  return (
+    <React.Fragment>
+      {displayOptions(
+        options,
+        currentState,
+        answer,
+        selectedOption,
+        fiftyResult
+      )}
+    </React.Fragment>
+  );
+};
 
 const mapStateToProps = state => {
   const {

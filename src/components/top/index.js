@@ -1,20 +1,34 @@
 import React from 'react';
 import logo from '../../img/logo.png';
 import Music from '../top/Music';
-import { nextQuestion } from '../../store/actions/dataActions';
+import { nextQuestion, newGame } from '../../store/actions/dataActions';
 import { connect } from 'react-redux';
-const Top = props => {
-  function skip() {
-    if (
-      props.currentState === 'question' ||
-      props.currentState === 'finalanswer'
-    ) {
+const Top = ({ currentState, nextQuestion, newGame, question }) => {
+  const skip = () => {
+    if (currentState === 'question' || currentState === 'finalanswer') {
       //do nothing
-    } else {
-      if (props.question < 15) {
-        props.nextQuestion();
+    } else if (currentState === 'win' || currentState === 'win2') {
+      if (question < 15) {
+        nextQuestion();
       }
-      //skip
+    } else if (currentState === 'lose') {
+      newGame();
+    }
+  };
+  let playIcon = null;
+  if (currentState === 'lose') {
+    playIcon = (
+      <div class="playIcon">
+        <i class="fas fa-play" />
+      </div>
+    );
+  } else if (currentState === 'win' || currentState === 'win2') {
+    if (question < 15) {
+      playIcon = (
+        <div class="playIcon">
+          <i class="fas fa-play" />
+        </div>
+      );
     }
   }
   return (
@@ -22,6 +36,7 @@ const Top = props => {
       <div class="container">
         <div class="logo" onClick={skip}>
           <img src={logo} />
+          {playIcon}
           <Music />
         </div>
       </div>
@@ -30,12 +45,14 @@ const Top = props => {
 };
 const mapStateToProps = state => {
   return {
-    question: state.data.question
+    question: state.data.question,
+    currentState: state.data.currentState
   };
 };
 const mapDispatchToProps = dispatch => {
   return {
-    nextQuestion: () => dispatch(nextQuestion())
+    nextQuestion: () => dispatch(nextQuestion()),
+    newGame: () => dispatch(newGame())
   };
 };
 export default connect(
